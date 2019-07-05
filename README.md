@@ -1,19 +1,15 @@
 # CoinbaseApp
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `coinbase_app` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:coinbase_app, "~> 0.1.0"}
-  ]
-end
+To run the app in terminal
 ```
+>> iex -S mix
+>> CoinbaseApp.Client.start_link ["BTC-USD"]
+```
+Video Demostration of the app:
+---
+> https://youtu.be/GWYupBiT4ok
+
+---
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
